@@ -1,0 +1,27 @@
+### Node / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### TypeScript build output
+dist/
+*.tsbuildinfo
+
+### Generated data / local outputs
+output/
+
+### Environment / secrets
+.env
+.env.*
+
+### Playwright artifacts
+playwright-report/
+test-results/
+
+### OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
