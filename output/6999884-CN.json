@@ -1,0 +1,1293 @@
+{
+  "recordNumber": "6999884-CN",
+  "capIds": {
+    "capID1": "23SCI",
+    "capID2": "00000",
+    "capID3": "D2595"
+  },
+  "summary": {
+    "currentStage": "Inspections",
+    "completedStages": [
+      "Application",
+      "OS Screening",
+      "Zoning Screening",
+      "Intake",
+      "Intake Fees",
+      "Reviews",
+      "Issuance Prep",
+      "Issuance"
+    ],
+    "currentReviewCycle": 3,
+    "pendingDisciplines": [
+      "Review Selection",
+      "Zoning",
+      "Review Evaluation"
+    ],
+    "totalDisciplines": 39
+  },
+  "parsed": {
+    "workflowStages": [
+      {
+        "name": "Application",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "Pending Submission",
+            "date": "2023-12-08",
+            "dueDate": "2023-12-08",
+            "assignedTo": null,
+            "raw": "Due on 12/08/2023, Assigned to TBD\nMarked as Pending Submission on 12/08/2023"
+          },
+          {
+            "status": "Submitted",
+            "date": "2025-06-25",
+            "dueDate": "2023-12-08",
+            "assignedTo": null,
+            "raw": "Due on 12/08/2023, Assigned to TBD\nMarked as Submitted on 06/25/2025"
+          }
+        ]
+      },
+      {
+        "name": "OS Screening",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "Scheduled",
+            "date": "2024-05-29",
+            "dueDate": null,
+            "assignedTo": null,
+            "raw": "Due on TBD, Assigned to TBD\nMarked as Scheduled on 05/29/2024"
+          },
+          {
+            "status": "Scheduled and Submitted",
+            "date": "2025-06-25",
+            "dueDate": "2025-06-25",
+            "assignedTo": null,
+            "raw": "Due on 06/25/2025, Assigned to TBD\nMarked as Scheduled and Submitted on 06/25/2025"
+          },
+          {
+            "status": "Approved",
+            "date": "2025-06-27",
+            "dueDate": "2025-06-25",
+            "assignedTo": null,
+            "raw": "Due on 06/25/2025, Assigned to AlanW SCI Lee\nMarked as Approved on 06/27/2025"
+          }
+        ]
+      },
+      {
+        "name": "Zoning Screening",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "Scheduled",
+            "date": "2024-05-29",
+            "dueDate": null,
+            "assignedTo": null,
+            "raw": "Due on TBD, Assigned to TBD\nMarked as Scheduled on 05/29/2024"
+          },
+          {
+            "status": "Scheduled and Submitted",
+            "date": "2025-06-25",
+            "dueDate": "2025-06-25",
+            "assignedTo": null,
+            "raw": "Due on 06/25/2025, Assigned to TBD\nMarked as Scheduled and Submitted on 06/25/2025"
+          },
+          {
+            "status": "Approved",
+            "date": "2025-06-27",
+            "dueDate": "2025-06-25",
+            "assignedTo": null,
+            "raw": "Due on 06/25/2025, Assigned to TBD\nMarked as Approved on 06/27/2025"
+          }
+        ]
+      },
+      {
+        "name": "Intake",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "Scheduled",
+            "date": "2024-05-29",
+            "dueDate": null,
+            "assignedTo": null,
+            "raw": "Due on TBD, Assigned to TBD\nMarked as Scheduled on 05/29/2024"
+          },
+          {
+            "status": "Scheduled and Submitted",
+            "date": "2025-06-25",
+            "dueDate": "2025-06-27",
+            "assignedTo": null,
+            "raw": "Due on 06/27/2025, Assigned to TBD\nMarked as Scheduled and Submitted on 06/25/2025"
+          },
+          {
+            "status": "Approved",
+            "date": "2025-06-27",
+            "dueDate": "2025-06-27",
+            "assignedTo": null,
+            "raw": "Due on 06/27/2025, Assigned to Eleanor Copeland\nMarked as Approved on 06/27/2025"
+          }
+        ]
+      },
+      {
+        "name": "Intake Fees",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "Waiting for Payment",
+            "date": "2025-06-27",
+            "dueDate": "2025-06-29",
+            "assignedTo": null,
+            "raw": "Due on 06/29/2025, Assigned to TBD\nMarked as Waiting for Payment on 06/27/2025"
+          },
+          {
+            "status": "Paid",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-29",
+            "assignedTo": null,
+            "raw": "Due on 06/29/2025, Assigned to TBD\nMarked as Paid on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "name": "Reviews",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "In Process",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as In Process on 06/30/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-07-16",
+            "dueDate": "2025-07-21",
+            "assignedTo": null,
+            "raw": "Due on 07/21/2025, Assigned to TBD\nMarked as Corrections Required on 07/16/2025"
+          },
+          {
+            "status": "Corrections Accepted",
+            "date": "2025-09-09",
+            "dueDate": "2025-07-21",
+            "assignedTo": null,
+            "raw": "Due on 07/21/2025, Assigned to Paul Merkling\nMarked as Corrections Accepted on 09/09/2025"
+          },
+          {
+            "status": "Corrections Submitted",
+            "date": "2025-09-09",
+            "dueDate": "2025-07-21",
+            "assignedTo": null,
+            "raw": "Due on 07/21/2025, Assigned to TBD\nMarked as Corrections Submitted on 09/09/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-09-30",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to TBD\nMarked as Corrections Required on 09/30/2025"
+          },
+          {
+            "status": "Corrections Accepted",
+            "date": "2025-10-07",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to * Unassigned\nMarked as Corrections Accepted on 10/07/2025"
+          },
+          {
+            "status": "Corrections Submitted",
+            "date": "2025-10-07",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to TBD\nMarked as Corrections Submitted on 10/07/2025"
+          },
+          {
+            "status": "Completed",
+            "date": "2025-10-21",
+            "dueDate": "2025-10-14",
+            "assignedTo": null,
+            "raw": "Due on 10/14/2025, Assigned to * Unassigned\nMarked as Completed on 10/21/2025"
+          }
+        ],
+        "currentReviewCycle": 3
+      },
+      {
+        "name": "Issuance Prep",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "Processing On Hold",
+            "date": "2025-10-21",
+            "dueDate": "2025-10-21",
+            "assignedTo": null,
+            "raw": "Due on 10/21/2025, Assigned to Eleanor Copeland\nMarked as Processing On Hold on 10/21/2025"
+          },
+          {
+            "status": "In Process",
+            "date": "2025-10-21",
+            "dueDate": "2025-10-21",
+            "assignedTo": null,
+            "raw": "Due on 10/21/2025, Assigned to TBD\nMarked as In Process on 10/21/2025"
+          },
+          {
+            "status": "Completed",
+            "date": "2025-10-22",
+            "dueDate": "2025-10-21",
+            "assignedTo": null,
+            "raw": "Due on 10/21/2025, Assigned to TBD\nMarked as Completed on 10/22/2025"
+          }
+        ]
+      },
+      {
+        "name": "Issuance",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "Waiting for Payment",
+            "date": "2025-10-22",
+            "dueDate": "2025-12-21",
+            "assignedTo": null,
+            "raw": "Due on 12/21/2025, Assigned to TBD\nMarked as Waiting for Payment on 10/22/2025"
+          },
+          {
+            "status": "Paid",
+            "date": "2025-10-28",
+            "dueDate": "2025-12-21",
+            "assignedTo": null,
+            "raw": "Due on 12/21/2025, Assigned to TBD\nMarked as Paid on 10/28/2025"
+          }
+        ]
+      },
+      {
+        "name": "Inspections",
+        "isComplete": false,
+        "isActive": true,
+        "events": [
+          {
+            "status": "In Process",
+            "date": "2025-10-28",
+            "dueDate": "2025-10-28",
+            "assignedTo": null,
+            "raw": "Due on 10/28/2025, Assigned to TBD\nMarked as In Process on 10/28/2025"
+          },
+          {
+            "status": "TBD",
+            "date": null,
+            "dueDate": "2025-10-28",
+            "assignedTo": null,
+            "raw": "Due on 10/28/2025, Assigned to TBD\nMarked as TBD on TBD"
+          }
+        ]
+      },
+      {
+        "name": "Post-Occupancy Monitoring",
+        "isComplete": false,
+        "isActive": false,
+        "events": []
+      },
+      {
+        "name": "Closed",
+        "isComplete": false,
+        "isActive": false,
+        "events": []
+      }
+    ],
+    "disciplineReviews": [
+      {
+        "discipline": "Review Selection",
+        "reviewCycle": 2,
+        "events": [
+          {
+            "status": "Completed",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Completed on 06/30/2025"
+          },
+          {
+            "status": "Completed",
+            "date": "2025-09-09",
+            "dueDate": "2025-07-16",
+            "assignedTo": null,
+            "raw": "Due on 07/16/2025, Assigned to TBD\nMarked as Completed on 09/09/2025"
+          },
+          {
+            "status": "Completed",
+            "date": "2025-10-07",
+            "dueDate": "2025-09-30",
+            "assignedTo": null,
+            "raw": "Due on 09/30/2025, Assigned to TBD\nMarked as Completed on 10/07/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Addressing",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Pending Assignment",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Pending Assignment on 06/30/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-07-07",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Jose Franco\nMarked as Assigned on 07/07/2025"
+          },
+          {
+            "status": "Approved",
+            "date": "2025-07-08",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Jose Franco\nMarked as Approved on 07/08/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "City Light",
+        "reviewCycle": 3,
+        "events": [
+          {
+            "status": "Pending Assignment",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Pending Assignment on 06/30/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-07-12",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to TBD\nMarked as Corrections Required on 07/12/2025"
+          },
+          {
+            "status": "Pending Assignment",
+            "date": "2025-09-09",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to TBD\nMarked as Pending Assignment on 09/09/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-09-11",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to TBD\nMarked as Corrections Required on 09/11/2025"
+          },
+          {
+            "status": "Pending Assignment",
+            "date": "2025-10-07",
+            "dueDate": "2025-10-14",
+            "assignedTo": null,
+            "raw": "Due on 10/14/2025, Assigned to TBD\nMarked as Pending Assignment on 10/07/2025"
+          },
+          {
+            "status": "Approved",
+            "date": "2025-10-09",
+            "dueDate": "2025-10-14",
+            "assignedTo": null,
+            "raw": "Due on 10/14/2025, Assigned to TBD\nMarked as Approved on 10/09/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Conveyance",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Drainage",
+        "reviewCycle": 2,
+        "events": [
+          {
+            "status": "Pending Assignment",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Pending Assignment on 06/30/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-07-01",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Jessica Batterman\nMarked as Assigned on 07/01/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-07-02",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Jessica Batterman\nMarked as Corrections Required on 07/02/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-09-09",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Jessica Batterman\nMarked as Assigned on 09/09/2025"
+          },
+          {
+            "status": "Approved",
+            "date": "2025-09-11",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Jessica Batterman\nMarked as Approved on 09/11/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "ECA GeoTech",
+        "reviewCycle": 3,
+        "events": [
+          {
+            "status": "Pending Assignment",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Pending Assignment on 06/30/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-07-01",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Rob McIntosh\nMarked as Assigned on 07/01/2025"
+          },
+          {
+            "status": "In Review",
+            "date": "2025-07-08",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Jackie Bronner\nMarked as In Review on 07/08/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-07-09",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Jackie Bronner\nMarked as Corrections Required on 07/09/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-09-09",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Jackie Bronner\nMarked as Assigned on 09/09/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-09-29",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Jackie Bronner\nMarked as Corrections Required on 09/29/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-10-07",
+            "dueDate": "2025-10-14",
+            "assignedTo": null,
+            "raw": "Due on 10/14/2025, Assigned to Jackie Bronner\nMarked as Assigned on 10/07/2025"
+          },
+          {
+            "status": "Approved",
+            "date": "2025-10-20",
+            "dueDate": "2025-10-14",
+            "assignedTo": null,
+            "raw": "Due on 10/14/2025, Assigned to Jackie Bronner\nMarked as Approved on 10/20/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "ECA Wetland",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "ECA Wildlife",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Energy",
+        "reviewCycle": 3,
+        "events": [
+          {
+            "status": "Pending Assignment",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Pending Assignment on 06/30/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-07-02",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Cary Novotney\nMarked as Assigned on 07/02/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-07-15",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Cary Novotney\nMarked as Corrections Required on 07/15/2025"
+          },
+          {
+            "status": "In Review",
+            "date": "2025-07-15",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Cary Novotney\nMarked as In Review on 07/15/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-09-09",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Cary Novotney\nMarked as Assigned on 09/09/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-09-23",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Mariko Blessing\nMarked as Assigned on 09/23/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-09-24",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Stephen Rudolph\nMarked as Corrections Required on 09/24/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-09-24",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Stephen Rudolph\nMarked as Assigned on 09/24/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-10-07",
+            "dueDate": "2025-10-14",
+            "assignedTo": null,
+            "raw": "Due on 10/14/2025, Assigned to Stephen Rudolph\nMarked as Assigned on 10/07/2025"
+          },
+          {
+            "status": "Approved",
+            "date": "2025-10-10",
+            "dueDate": "2025-10-14",
+            "assignedTo": null,
+            "raw": "Due on 10/14/2025, Assigned to Stephen Rudolph\nMarked as Approved on 10/10/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Finance/Admin Services ADA",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Fire",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Floodplain",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Geo Soils",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Land Use",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Law",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Mechanical",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Noise",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Ordinance",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Ordinance/Structural",
+        "reviewCycle": 2,
+        "events": [
+          {
+            "status": "Pending Assignment",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Pending Assignment on 06/30/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-07-07",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Gordon Hicks\nMarked as Assigned on 07/07/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-07-08",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Gordon Hicks\nMarked as Corrections Required on 07/08/2025"
+          },
+          {
+            "status": "In Review",
+            "date": "2025-07-08",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Gordon Hicks\nMarked as In Review on 07/08/2025"
+          },
+          {
+            "status": "In Review",
+            "date": "2025-07-08",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Gordon Hicks\nMarked as In Review on 07/08/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-09-09",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Gordon Hicks\nMarked as Assigned on 09/09/2025"
+          },
+          {
+            "status": "In Review",
+            "date": "2025-09-11",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Gordon Hicks\nMarked as In Review on 09/11/2025"
+          },
+          {
+            "status": "Approved",
+            "date": "2025-09-12",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Gordon Hicks\nMarked as Approved on 09/12/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Parks",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Shoreline",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Structural Engineer",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Sustainability",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Transportation",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Transportation Management",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Zoning",
+        "reviewCycle": 3,
+        "events": [
+          {
+            "status": "Pending Assignment",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Pending Assignment on 06/30/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-07-01",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Mike Peli\nMarked as Assigned on 07/01/2025"
+          },
+          {
+            "status": "In Review",
+            "date": "2025-07-08",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Mike Peli\nMarked as In Review on 07/08/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-07-09",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Mike Peli\nMarked as Corrections Required on 07/09/2025"
+          },
+          {
+            "status": "In Review",
+            "date": "2025-07-09",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Mike Peli\nMarked as In Review on 07/09/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-09-09",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Mike Peli\nMarked as Assigned on 09/09/2025"
+          },
+          {
+            "status": "In Review",
+            "date": "2025-09-16",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Mike Peli\nMarked as In Review on 09/16/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-09-17",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Mike Peli\nMarked as Corrections Required on 09/17/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-10-07",
+            "dueDate": "2025-10-14",
+            "assignedTo": null,
+            "raw": "Due on 10/14/2025, Assigned to Mike Peli\nMarked as Assigned on 10/07/2025"
+          },
+          {
+            "status": "Approved",
+            "date": "2025-10-14",
+            "dueDate": "2025-10-14",
+            "assignedTo": null,
+            "raw": "Due on 10/14/2025, Assigned to Mike Peli\nMarked as Approved on 10/14/2025"
+          },
+          {
+            "status": "In Review",
+            "date": "2025-10-14",
+            "dueDate": "2025-10-14",
+            "assignedTo": null,
+            "raw": "Due on 10/14/2025, Assigned to Mike Peli\nMarked as In Review on 10/14/2025"
+          },
+          {
+            "status": "In Review",
+            "date": "2025-10-14",
+            "dueDate": "2025-10-14",
+            "assignedTo": null,
+            "raw": "Due on 10/14/2025, Assigned to Mike Peli\nMarked as In Review on 10/14/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "ECA Riparian",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Neighborhoods",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Shoring - Right of Way",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Shoring - Private Property",
+        "reviewCycle": 3,
+        "events": [
+          {
+            "status": "Pending Assignment",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Pending Assignment on 06/30/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-07-02",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to TBD\nMarked as Assigned on 07/02/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-07-09",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Hiro Ikeda\nMarked as Corrections Required on 07/09/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-09-09",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Hiro Ikeda\nMarked as Assigned on 09/09/2025"
+          },
+          {
+            "status": "In Review",
+            "date": "2025-09-22",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Hiro Ikeda\nMarked as In Review on 09/22/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-09-26",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Hiro Ikeda\nMarked as Corrections Required on 09/26/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-10-07",
+            "dueDate": "2025-10-14",
+            "assignedTo": null,
+            "raw": "Due on 10/14/2025, Assigned to Hiro Ikeda\nMarked as Assigned on 10/07/2025"
+          },
+          {
+            "status": "Approved",
+            "date": "2025-10-14",
+            "dueDate": "2025-10-14",
+            "assignedTo": null,
+            "raw": "Due on 10/14/2025, Assigned to Hiro Ikeda\nMarked as Approved on 10/14/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Revegetation",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Assigned",
+            "date": "2025-06-30",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Leah Carlson\nMarked as Assigned on 06/30/2025"
+          },
+          {
+            "status": "Pending Assignment",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Pending Assignment on 06/30/2025"
+          },
+          {
+            "status": "In Review",
+            "date": "2025-07-10",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Leah Carlson\nMarked as In Review on 07/10/2025"
+          },
+          {
+            "status": "Approved",
+            "date": "2025-07-11",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Leah Carlson\nMarked as Approved on 07/11/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Policy",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Incentive Zoning",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Mandatory Housing Affordability",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Housing",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Side Sewer Conflict",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-07-14",
+            "assignedTo": null,
+            "raw": "Due on 07/14/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Tree",
+        "reviewCycle": 2,
+        "events": [
+          {
+            "status": "Pending Assignment",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Pending Assignment on 06/30/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-07-01",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Deborah McGarry\nMarked as Assigned on 07/01/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-07-09",
+            "dueDate": "2025-07-07",
+            "assignedTo": null,
+            "raw": "Due on 07/07/2025, Assigned to Deborah McGarry\nMarked as Corrections Required on 07/09/2025"
+          },
+          {
+            "status": "Assigned",
+            "date": "2025-09-09",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Deborah McGarry\nMarked as Assigned on 09/09/2025"
+          },
+          {
+            "status": "Approved",
+            "date": "2025-09-23",
+            "dueDate": "2025-09-16",
+            "assignedTo": null,
+            "raw": "Due on 09/16/2025, Assigned to Deborah McGarry\nMarked as Approved on 09/23/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Arborist",
+        "reviewCycle": 1,
+        "events": [
+          {
+            "status": "Not Required",
+            "date": "2025-06-30",
+            "dueDate": "2025-06-30",
+            "assignedTo": null,
+            "raw": "Due on 06/30/2025, Assigned to TBD\nMarked as Not Required on 06/30/2025"
+          }
+        ]
+      },
+      {
+        "discipline": "Review Evaluation",
+        "reviewCycle": null,
+        "events": [
+          {
+            "status": "Summary Report Required",
+            "date": "2025-07-15",
+            "dueDate": "2025-07-15",
+            "assignedTo": null,
+            "raw": "Due on 07/15/2025, Assigned to TBD\nMarked as Summary Report Required on 07/15/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-07-16",
+            "dueDate": "2025-07-15",
+            "assignedTo": null,
+            "raw": "Due on 07/15/2025, Assigned to TBD\nMarked as Corrections Required on 07/16/2025"
+          },
+          {
+            "status": "Summary Report Completed",
+            "date": "2025-07-16",
+            "dueDate": "2025-07-15",
+            "assignedTo": null,
+            "raw": "Due on 07/15/2025, Assigned to TBD\nMarked as Summary Report Completed on 07/16/2025"
+          },
+          {
+            "status": "Summary Report Required",
+            "date": "2025-09-29",
+            "dueDate": "2025-09-29",
+            "assignedTo": null,
+            "raw": "Due on 09/29/2025, Assigned to TBD\nMarked as Summary Report Required on 09/29/2025"
+          },
+          {
+            "status": "Corrections Required",
+            "date": "2025-09-30",
+            "dueDate": "2025-09-29",
+            "assignedTo": null,
+            "raw": "Due on 09/29/2025, Assigned to * Unassigned\nMarked as Corrections Required on 09/30/2025"
+          },
+          {
+            "status": "Summary Report Completed",
+            "date": "2025-09-30",
+            "dueDate": "2025-09-29",
+            "assignedTo": null,
+            "raw": "Due on 09/29/2025, Assigned to * Unassigned\nMarked as Summary Report Completed on 09/30/2025"
+          },
+          {
+            "status": "Final Review Coordination",
+            "date": "2025-10-20",
+            "dueDate": "2025-10-20",
+            "assignedTo": null,
+            "raw": "Due on 10/20/2025, Assigned to * Unassigned\nMarked as Final Review Coordination on 10/20/2025"
+          },
+          {
+            "status": "All Reviews Completed",
+            "date": "2025-10-21",
+            "dueDate": "2025-10-20",
+            "assignedTo": null,
+            "raw": "Due on 10/20/2025, Assigned to Gordon Hicks\nMarked as All Reviews Completed on 10/21/2025"
+          }
+        ]
+      }
+    ]
+  },
+  "calculatedMetrics": {
+    "realReviewCycleFromEvents": 3,
+    "portalCurrentReviewCycle": 3
+  }
+}

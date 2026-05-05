@@ -1,0 +1,26 @@
+{
+  "name": "fastview-sdci",
+  "version": "1.0.0",
+  "description": "The **Seattle Services Portal** (`services.seattle.gov/Portal`) is operated by the Seattle Department of Construction & Inspections (SDCI). It tracks permits for construction, land use, and trade work across the city.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/main.js",
+    "main": "npm run -s build && npm run -s start",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "playwright": "^1.59.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "node-html-parser": "^7.1.0"
+  }
+}

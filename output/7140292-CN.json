@@ -1,0 +1,288 @@
+{
+  "recordNumber": "7140292-CN",
+  "capIds": {
+    "capID1": "26SCI",
+    "capID2": "00000",
+    "capID3": "40670"
+  },
+  "summary": {
+    "currentStage": "Reviews",
+    "completedStages": [
+      "Application",
+      "OS Screening",
+      "Zoning Screening",
+      "Tree Screening",
+      "Intake",
+      "Intake Fees"
+    ],
+    "currentReviewCycle": 0,
+    "pendingDisciplines": [
+      "Review Selection"
+    ],
+    "totalDisciplines": 1
+  },
+  "parsed": {
+    "workflowStages": [
+      {
+        "name": "Application",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "Pending Submission",
+            "date": "2026-01-02",
+            "dueDate": "2026-01-02",
+            "assignedTo": null,
+            "raw": "Due on 01/02/2026, Assigned to TBD\nMarked as Pending Submission on 01/02/2026"
+          },
+          {
+            "status": "Submitted",
+            "date": "2026-04-15",
+            "dueDate": "2026-01-02",
+            "assignedTo": null,
+            "raw": "Due on 01/02/2026, Assigned to TBD\nMarked as Submitted on 04/15/2026"
+          }
+        ]
+      },
+      {
+        "name": "OS Screening",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "Scheduled",
+            "date": "2026-01-09",
+            "dueDate": null,
+            "assignedTo": null,
+            "raw": "Due on TBD, Assigned to TBD\nMarked as Scheduled on 01/09/2026"
+          },
+          {
+            "status": "Scheduled and Submitted",
+            "date": "2026-04-15",
+            "dueDate": "2026-04-15",
+            "assignedTo": null,
+            "raw": "Due on 04/15/2026, Assigned to TBD\nMarked as Scheduled and Submitted on 04/15/2026"
+          },
+          {
+            "status": "Scheduled and Submitted",
+            "date": "2026-04-24",
+            "dueDate": "2026-04-15",
+            "assignedTo": null,
+            "raw": "Due on 04/15/2026, Assigned to TBD\nMarked as Scheduled and Submitted on 04/24/2026"
+          },
+          {
+            "status": "Approved",
+            "date": "2026-04-27",
+            "dueDate": "2026-04-27",
+            "assignedTo": null,
+            "raw": "Due on 04/27/2026, Assigned to Rose Cheu\nMarked as Approved on 04/27/2026"
+          }
+        ]
+      },
+      {
+        "name": "Zoning Screening",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "Scheduled",
+            "date": "2026-01-09",
+            "dueDate": null,
+            "assignedTo": null,
+            "raw": "Due on TBD, Assigned to TBD\nMarked as Scheduled on 01/09/2026"
+          },
+          {
+            "status": "Scheduled and Submitted",
+            "date": "2026-04-15",
+            "dueDate": "2026-04-15",
+            "assignedTo": null,
+            "raw": "Due on 04/15/2026, Assigned to TBD\nMarked as Scheduled and Submitted on 04/15/2026"
+          },
+          {
+            "status": "Scheduled and Submitted",
+            "date": "2026-04-24",
+            "dueDate": "2026-04-15",
+            "assignedTo": null,
+            "raw": "Due on 04/15/2026, Assigned to TBD\nMarked as Scheduled and Submitted on 04/24/2026"
+          },
+          {
+            "status": "Approved",
+            "date": "2026-04-27",
+            "dueDate": "2026-04-27",
+            "assignedTo": null,
+            "raw": "Due on 04/27/2026, Assigned to TBD\nMarked as Approved on 04/27/2026"
+          }
+        ]
+      },
+      {
+        "name": "Tree Screening",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "Scheduled",
+            "date": "2026-01-09",
+            "dueDate": null,
+            "assignedTo": null,
+            "raw": "Due on TBD, Assigned to TBD\nMarked as Scheduled on 01/09/2026"
+          },
+          {
+            "status": "Scheduled and Submitted",
+            "date": "2026-04-15",
+            "dueDate": "2026-04-15",
+            "assignedTo": null,
+            "raw": "Due on 04/15/2026, Assigned to TBD\nMarked as Scheduled and Submitted on 04/15/2026"
+          },
+          {
+            "status": "Scheduled and Submitted",
+            "date": "2026-04-24",
+            "dueDate": "2026-04-15",
+            "assignedTo": null,
+            "raw": "Due on 04/15/2026, Assigned to TBD\nMarked as Scheduled and Submitted on 04/24/2026"
+          },
+          {
+            "status": "Approved",
+            "date": "2026-04-27",
+            "dueDate": "2026-04-27",
+            "assignedTo": null,
+            "raw": "Due on 04/27/2026, Assigned to Deborah McGarry\nMarked as Approved on 04/27/2026"
+          }
+        ]
+      },
+      {
+        "name": "Intake",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "Scheduled",
+            "date": "2026-01-09",
+            "dueDate": null,
+            "assignedTo": null,
+            "raw": "Due on TBD, Assigned to TBD\nMarked as Scheduled on 01/09/2026"
+          },
+          {
+            "status": "Scheduled and Submitted",
+            "date": "2026-04-15",
+            "dueDate": "2026-05-12",
+            "assignedTo": null,
+            "raw": "Due on 05/12/2026, Assigned to TBD\nMarked as Scheduled and Submitted on 04/15/2026"
+          },
+          {
+            "status": "Scheduled and Submitted",
+            "date": "2026-04-24",
+            "dueDate": "2026-05-12",
+            "assignedTo": null,
+            "raw": "Due on 05/12/2026, Assigned to TBD\nMarked as Scheduled and Submitted on 04/24/2026"
+          },
+          {
+            "status": "Approved",
+            "date": "2026-04-27",
+            "dueDate": "2026-04-27",
+            "assignedTo": null,
+            "raw": "Due on 04/27/2026, Assigned to Eleanor Copeland\nMarked as Approved on 04/27/2026"
+          }
+        ]
+      },
+      {
+        "name": "Intake Fees",
+        "isComplete": true,
+        "isActive": false,
+        "events": [
+          {
+            "status": "Paid",
+            "date": "2026-04-27",
+            "dueDate": "2026-04-29",
+            "assignedTo": null,
+            "raw": "Due on 04/29/2026, Assigned to TBD\nMarked as Paid on 04/27/2026"
+          },
+          {
+            "status": "Waiting for Payment",
+            "date": "2026-04-27",
+            "dueDate": "2026-04-29",
+            "assignedTo": null,
+            "raw": "Due on 04/29/2026, Assigned to TBD\nMarked as Waiting for Payment on 04/27/2026"
+          }
+        ]
+      },
+      {
+        "name": "Reviews",
+        "isComplete": false,
+        "isActive": true,
+        "events": [
+          {
+            "status": "Reviews",
+            "date": null,
+            "dueDate": "2026-04-27",
+            "assignedTo": null,
+            "raw": "Due on 04/27/2026, Assigned to TBD\nMarked as Reviews on Parent on 04/27/2026"
+          },
+          {
+            "status": "In Process",
+            "date": "2026-04-27",
+            "dueDate": "2026-04-27",
+            "assignedTo": null,
+            "raw": "Due on 04/27/2026, Assigned to TBD\nMarked as In Process on 04/27/2026"
+          },
+          {
+            "status": "TBD",
+            "date": null,
+            "dueDate": "2026-04-27",
+            "assignedTo": null,
+            "raw": "Due on 04/27/2026, Assigned to TBD\nMarked as TBD on TBD"
+          }
+        ],
+        "currentReviewCycle": 0
+      },
+      {
+        "name": "Issuance Prep",
+        "isComplete": false,
+        "isActive": false,
+        "events": []
+      },
+      {
+        "name": "Issuance",
+        "isComplete": false,
+        "isActive": false,
+        "events": []
+      },
+      {
+        "name": "Inspections",
+        "isComplete": false,
+        "isActive": false,
+        "events": []
+      },
+      {
+        "name": "Post-Occupancy Monitoring",
+        "isComplete": false,
+        "isActive": false,
+        "events": []
+      },
+      {
+        "name": "Closed",
+        "isComplete": false,
+        "isActive": false,
+        "events": []
+      }
+    ],
+    "disciplineReviews": [
+      {
+        "discipline": "Review Selection",
+        "reviewCycle": null,
+        "events": [
+          {
+            "status": "TBD",
+            "date": null,
+            "dueDate": "2026-04-27",
+            "assignedTo": null,
+            "raw": "Due on 04/27/2026, Assigned to TBD\nMarked as TBD on TBD"
+          }
+        ]
+      }
+    ]
+  },
+  "calculatedMetrics": {
+    "realReviewCycleFromEvents": 1,
+    "portalCurrentReviewCycle": 0
+  }
+}
