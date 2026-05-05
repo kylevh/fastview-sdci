@@ -11,6 +11,7 @@ dist/
 
 ### Generated data / local outputs
 output/
+data/
 
 ### Environment / secrets
 .env

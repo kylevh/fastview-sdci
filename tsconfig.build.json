@@ -5,6 +5,8 @@
     "outDir": "./dist",
     "declaration": false,
     "sourceMap": true
-  }
+  },
+  "include": ["functions/**/*.ts", "server/**/*.ts", "main.ts"],
+  "exclude": ["server.ts"]
 }
 

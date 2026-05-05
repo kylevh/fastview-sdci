@@ -53,7 +53,12 @@ interface Permit {
   }
   
   export async function getPermitInfo(permitNumber: string): Promise<PermitInfo | null> {
-    const url = `${PERMIT_API_URL}?permitnum=${encodeURIComponent(permitNumber)}`;
+    // Socrata: keep payload tiny + fast.
+    const url =
+      `${PERMIT_API_URL}?` +
+      `$select=permitnum,link&` +
+      `$limit=1&` +
+      `permitnum=${encodeURIComponent(permitNumber)}`;
     const response = await fetch(url);
     if (!response.ok) return null;
 
