@@ -1,8 +1,8 @@
-# Seattle SDCI Permit Portal — Data Structure
+# Fastview SDCI Viewer - Improved SDCI Permit Portal
 
 ## Overview
 
-The **Seattle Services Portal** (`services.seattle.gov/Portal`) is operated by the Seattle Department of Construction & Inspections (SDCI). It tracks permits for construction, land use, and trade work across the city.
+The **Seattle Services Portal** (`services.seattle.gov/Portal`) is operated by the Seattle Department of Construction & Inspections (SDCI). It tracks permits for construction, land use, and trade work across the city. I wanted an easy way to get a quick overview rather than needing to manually click through each dropdown to see the status on each specific review. Below is my understanding of how the data structure of the SDCI Permit Portal works and how I scraped the data.
 
 Each permit record is organized in a **hierarchical, event-driven** structure that mirrors the real-world permit lifecycle:
 
@@ -111,8 +111,8 @@ interface Event {
   "status": "In Review",
   "date": "2025-06-26",
   "dueDate": null,
-  "assignedTo": "Carlos Lopez",
-  "raw": "Assigned to Carlos Lopez\nMarked as In Review on 06/26/2025"
+  "assignedTo": "John Smith",
+  "raw": "Assigned to John Smith\nMarked as In Review on 06/26/2025"
 }
 ```
 
@@ -126,7 +126,7 @@ interface Event {
 
 ---
 
-## Run the end-to-end script (record # → parsed JSON)
+## How to run
 
 Run the script (it compiles to `dist/` and runs with plain Node):
 
