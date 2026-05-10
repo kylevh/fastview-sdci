@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 
+import type { PermitAddress } from "../functions/get-permit.js";
 import { getPermitInfo } from "../functions/get-permit.js";
 import { getProcessingDataHtml } from "../functions/get-processing-data.js";
 import {
@@ -20,6 +21,7 @@ import {
 type PermitApiResponse = {
   recordNumber: string;
   capIds: { capID1: string; capID2: string; capID3: string };
+  address: PermitAddress;
   summary: ReturnType<typeof summarizePermit>;
   parsed: ReturnType<typeof parsePermitStatusHtml>;
   calculatedMetrics: ReturnType<typeof calculatePermitMetrics>;
@@ -95,6 +97,7 @@ async function fetchPermit(recordNumber: string): Promise<PermitApiResponse> {
   const response: PermitApiResponse = {
     recordNumber: normalizedRecord,
     capIds: { capID1, capID2, capID3 },
+    address: permitInfo.address,
     summary: summarizePermit(parsed),
     parsed,
     calculatedMetrics,

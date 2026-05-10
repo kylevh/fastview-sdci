@@ -23,13 +23,32 @@ interface Permit {
     capID3?: string;
   };
 
+  /** Mailing / site address from Seattle Open Data (76t5-zqzr), not the Accela Status HTML. */
+  export type PermitAddress = {
+    line1: string | null;
+    city: string | null;
+    state: string | null;
+    zip: string | null;
+  };
+
   export type PermitInfo = {
     originalLink: string;
     permitLink: string;
     capIds: AccelaCapIds;
+    address: PermitAddress;
   };
 
-  function extractAccelaInfo(originalUrl: string, finalUrl: string): PermitInfo {
+  function nonEmpty(s: unknown): string | null {
+    if (s == null) return null;
+    const t = String(s).trim();
+    return t.length > 0 ? t : null;
+  }
+
+  function extractAccelaInfo(
+    originalUrl: string,
+    finalUrl: string,
+    address: PermitAddress
+  ): PermitInfo {
     const u = new URL(finalUrl);
 
     const capIds: AccelaCapIds = {
@@ -38,7 +57,7 @@ interface Permit {
       capID3: u.searchParams.get("capID3") ?? undefined,
     };
 
-    return { originalLink: originalUrl, permitLink: finalUrl, capIds };
+    return { originalLink: originalUrl, permitLink: finalUrl, capIds, address };
   }
 
   async function resolveFinalUrl(url: string): Promise<string> {
@@ -53,10 +72,10 @@ interface Permit {
   }
   
   export async function getPermitInfo(permitNumber: string): Promise<PermitInfo | null> {
-    // Socrata: keep payload tiny + fast.
+    // Socrata: small select; address fields match dataset 76t5-zqzr (see fieldName in API metadata).
     const url =
       `${PERMIT_API_URL}?` +
-      `$select=permitnum,link&` +
+      `$select=permitnum,link,originaladdress1,originalcity,originalstate,originalzip&` +
       `$limit=1&` +
       `permitnum=${encodeURIComponent(permitNumber)}`;
     const response = await fetch(url);
@@ -68,8 +87,15 @@ interface Permit {
     const permit = data[0];
     if (!permit.link?.url) return null;
 
+    const address: PermitAddress = {
+      line1: nonEmpty(permit.originaladdress1),
+      city: nonEmpty(permit.originalcity),
+      state: nonEmpty(permit.originalstate),
+      zip: nonEmpty(permit.originalzip),
+    };
+
     const finalUrl = await resolveFinalUrl(permit.link.url);
-    return extractAccelaInfo(permit.link.url, finalUrl);
+    return extractAccelaInfo(permit.link.url, finalUrl, address);
   }
 
   async function main() {

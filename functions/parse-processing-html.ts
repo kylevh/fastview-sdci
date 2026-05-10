@@ -50,6 +50,10 @@ const WORKFLOW_STAGE_NAMES = new Set([
 
 // ─── Event parser ─────────────────────────────────────────────────────────────
 
+function stripHtmlTags(s: string): string {
+  return s.replace(/<[^>]+>/g, "").trim();
+}
+
 function parseEvent(rawText: string): PermitEvent {
   const raw = rawText.trim();
 
@@ -58,10 +62,13 @@ function parseEvent(rawText: string): PermitEvent {
   const dueDate =
     rawDueDate && rawDueDate !== "TBD" ? parseDateStr(rawDueDate) : null;
 
-  const assignedMatch = raw.match(
-    /Assigned to\s+(?:<[^>]+>)?([^<\n]+?)(?:<\/|$)/
-  );
-  const assignedTo = assignedMatch?.[1]?.trim() ?? null;
+  // Portal puts "Marked as …" on the *next* line, so the old `(?:</|$)` suffix never
+  // matched and assignee was always null. Take the rest of the line after "Assigned to",
+  // then strip any inline tags (e.g. <span>Name</span>).
+  const assignedLine = raw.match(/Assigned to\s+([^\n]+)/);
+  const assignedRaw = assignedLine?.[1]?.trim();
+  const assignedStripped = assignedRaw ? stripHtmlTags(assignedRaw) : "";
+  const assignedTo = assignedStripped.length > 0 ? assignedStripped : null;
 
   const statusMatch = raw.match(
     /Marked as\s+(?:<[^>]+>)?([^<]+?)(?:<\/[^>]+>)?\s+on\s+(?:<[^>]+>)?([^<\n]+)/

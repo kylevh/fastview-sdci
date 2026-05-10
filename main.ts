@@ -33,6 +33,7 @@ async function main() {
   const output = {
     recordNumber,
     capIds: { capID1, capID2, capID3 },
+    address: permitInfo.address,
     summary: summarizePermit(parsed),
     parsed,
     calculatedMetrics,
