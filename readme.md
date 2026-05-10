@@ -138,9 +138,7 @@ export interface ParsedPermitStatus {
 Currently:
 
 - **`portalCurrentReviewCycle`**: the portal-reported cycle number from “Additional Information” (or `null`)
-- **`realReviewCycleFromEvents`**: a heuristic cycle counter derived from **Reviews stage** events:
-  - starts at 1 on the first observed Reviews-stage event
-  - increments each time a Reviews-stage event status is exactly `"Corrections Required"`
+- **`realReviewCycleFromEvents`**: inferred from **Reviews stage** events (`calculateRealReviewCycleFromReviewsEvents`): starts at **1**; each **new** correction round increments when `"Corrections Required"` appears after the prior round was closed by `"Corrections Accepted"` or `"Completed"` (back-to-back duplicate `"Corrections Required"` rows without that closure count once).
 
 ## How the data is fetched
 
